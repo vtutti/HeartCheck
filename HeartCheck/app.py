@@ -112,4 +112,4 @@ if __name__ == "__main__":
     print("* Starting Flask server..."
           "please wait until server has fully started")
     # debug=True options allows us to view our changes without restarting the server.
-    app.run(host='127.0.0.1', debug=True)
+    app.run(host='0.0.0.0', debug=True)
